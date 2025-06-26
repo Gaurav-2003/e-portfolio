@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gaurav Jethuri | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <h1>Gaurav.dev</h1>
+      <button id="theme-toggle">🌙</button>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="container">
+      <img src="assets/profile.jpg" alt="Profile" class="profile-pic"/>
+      <h1>Gaurav Jethuri</h1>
+      <p>Full Stack Developer | Java | React | Spring Boot</p>
+      <a href="assets/resume.pdf" class="btn">Download Resume</a>
+    </div>
+  </header>
+
+  <section id="about" class="section fade-in">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I specialize in building robust backend services and interactive web applications. Currently working on real-world simulators and scheduling tools.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section fade-in">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skill">
+        <label>Java</label>
+        <div class="bar"><div class="fill" style="width: 90%"></div></div>
+      </div>
+      <div class="skill">
+        <label>ReactJS</label>
+        <div class="bar"><div class="fill" style="width: 85%"></div></div>
+      </div>
+      <div class="skill">
+        <label>Spring Boot</label>
+        <div class="bar"><div class="fill" style="width: 80%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section fade-in">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <img src="assets/project1.png" alt="Project Screenshot"/>
+        <div class="overlay">
+          <h3>CPU Scheduling Visualizer</h3>
+          <p>Java Spring Boot + Chart.js interactive simulator</p>
+          <a href="https://github.com/yourusername/cpu-scheduler" target="_blank">View Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section fade-in">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required/>
+        <input type="email" placeholder="Email" required/>
+        <textarea placeholder="Message..." required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Gaurav Jethuri. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
